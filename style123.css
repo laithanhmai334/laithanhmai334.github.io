@@ -1,5 +1,6 @@
 h1 {
       text-align: center;
+
 }
  .container {
   display: flex;
@@ -20,26 +21,22 @@ img {
   inline-size: 150px;
   overflow: hidden;
 }
+
 .list{
-line-height: 1.8;
- border: 1px solid white;
- line-width: 1;
+line-height: 1.5;
+line-width:0.5;
+ background-image: url('border list02f.png');
+   background-size: 101% 60%;
+   background-repeat: no-repeat;
 }
 
-
 table, th, td {
-  border: 1px solid white;
+ border:1px solid white;
   border-collapse: collapse;
    text-align:left;
   
 }
-li:not(:first-of-type) {
-            margin-top: 0.1em;
 
-        }
-li:not(:last-of-type) {
-            margin-bottom: 0.9em;
-        }
 ul {
   list-style-type: none;
   
@@ -47,4 +44,11 @@ ul {
 body {
   background-color: black;
   color:white;
+}
+.brah{
+     content: "";
+  margin: -1em;
+  display: block;
+  font-size: 24%;
+
 }
