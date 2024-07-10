@@ -1,16 +1,14 @@
-h1 {
-      text-align: center;
-
+h1{
+    margin-left:350px;
 }
  .container {
      display: flex;
   justify-content: center;
-            gap: 60px;
+            gap: 70px;
 }
  .container1 {
      display: flex;
-  justify-content: center;
-            gap: 20px;
+            gap: 350px;
 }
 img {
     width:230px;
@@ -18,23 +16,29 @@ img {
 }
 
 .box {
-  inline-size: 150px;
+  inline-size: 500px;
   overflow: hidden;
 }
 
 .list{
+    margin-top:-110px;
+margin-left: 350px;
 line-height: 1.5;
 line-width:0.5;
  background-image: url('border list02f.png');
-   background-size: 101% 67%;
+   background-size: 101% 680px;
    background-repeat: no-repeat;
 }
 
-table, th, td {
- border:1px solid white;
-  border-collapse: collapse;
+.secondtable table {
+    border:1.5px solid white;
+    border-collapse: collapse;
+
+}
+ .secondtable td{
+border:1.5px solid white;
+border-collapse: collapse;
    text-align:left;
-  
 }
 
 ul {
@@ -51,4 +55,10 @@ body {
   display: block;
   font-size: 24%;
 
+}
+.minitable{
+    line-height:20px;
+}
+.intro{
+    line-height:25px;
 }
