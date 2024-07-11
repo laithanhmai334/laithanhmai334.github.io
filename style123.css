@@ -1,5 +1,6 @@
 h1{
-    margin-left:350px;
+   text-align:center;
+    margin-left:-700px;
 }
  .container {
      display: flex;
@@ -8,7 +9,8 @@ h1{
 }
  .container1 {
      display: flex;
-            gap: 350px;
+     justify-content: center;
+            gap: 10px;
 }
 img {
     width:230px;
@@ -19,14 +21,17 @@ img {
   inline-size: 500px;
   overflow: hidden;
 }
+.bio{
+    inline-size: 400px;
+  overflow: hidden;
+}
 
 .list{
     margin-top:-110px;
-margin-left: 350px;
+margin-left: 110px;
 line-height: 1.5;
-line-width:0.5;
  background-image: url('border list02f.png');
-   background-size: 101% 680px;
+   background-size: 200px 680px;
    background-repeat: no-repeat;
 }
 
@@ -49,13 +54,7 @@ body {
   background-color: black;
   color:white;
 }
-.brah{
-     content: "";
-  margin: -1em;
-  display: block;
-  font-size: 24%;
 
-}
 .minitable{
     line-height:20px;
 }
