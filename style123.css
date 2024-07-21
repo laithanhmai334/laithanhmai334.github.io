@@ -116,3 +116,35 @@ body{
     display: flex;
             gap: 10px;
 }
+.tableChapter1 td{
+    border:1.5px solid white;
+border-collapse: collapse;
+   text-align:center;
+}
+.tableChapter1 table{
+    border:1.5px solid white;
+border-collapse: collapse;
+}
+.tableChapter2 td{
+    border:1.5px solid white;
+border-collapse: collapse;
+   text-align:center;
+}
+.tableChapter2 table{
+    border:1.5px solid white;
+border-collapse: collapse;
+}
+.tablePlayerCards td{
+    border:1.5px solid white;
+border-collapse: collapse;
+   text-align:center;
+}
+.tablePlayerCards table{
+    border:1.5px solid white;
+border-collapse: collapse;
+}
+.tablePlayerCards{
+    display: flex;
+    justify-content: center;
+    margin-top:-10px;
+}
