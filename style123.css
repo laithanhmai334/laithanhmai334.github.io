@@ -148,3 +148,31 @@ border-collapse: collapse;
     justify-content: center;
     margin-top:-10px;
 }
+tableSprays td{
+    border:1.5px solid white;
+border-collapse: collapse;
+   text-align:center;
+}
+.tableSprays table{
+    border:1.5px solid white;
+border-collapse: collapse;
+}
+.tableSprays{
+    display: flex;
+    justify-content: center;
+    margin-top:-10px;
+}
+.tableWeaponSkins td{
+    border:1.5px solid white;
+border-collapse: collapse;
+   text-align:center;
+}
+.tableWeaponSkins table{
+    border:1.5px solid white;
+border-collapse: collapse;
+}
+.tableWeaponSkins{
+    display: flex;
+    justify-content: center;
+    margin-top:-10px;
+}
