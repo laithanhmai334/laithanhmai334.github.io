@@ -176,3 +176,20 @@ border-collapse: collapse;
     justify-content: center;
     margin-top:-10px;
 }
+.updateHistory{
+   width: 850px;
+    height:370px;
+    overflow-y: scroll;
+     
+}
+p .updateHistory {
+width: 750px;
+    height:550px;
+}
+ul.updateHistory {
+     list-style-type: circle;
+}
+.buff01 {
+     display: flex;
+     gap:5px;
+}
