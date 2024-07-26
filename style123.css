@@ -46,7 +46,7 @@ border-collapse: collapse;
    text-align:left;
 }
 
-ul {
+.list ul {
   list-style-type: none;
   
 }
@@ -148,7 +148,7 @@ border-collapse: collapse;
     justify-content: center;
     margin-top:-10px;
 }
-tableSprays td{
+.tableSprays td{
     border:1.5px solid white;
 border-collapse: collapse;
    text-align:center;
@@ -177,13 +177,13 @@ border-collapse: collapse;
     margin-top:-10px;
 }
 .updateHistory{
-   width: 850px;
+   width: 830px;
     height:370px;
     overflow-y: scroll;
      
 }
 p .updateHistory {
-width: 750px;
+width: 300px;
     height:550px;
 }
 ul.updateHistory {
