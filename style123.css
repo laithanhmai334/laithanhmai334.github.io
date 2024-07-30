@@ -197,3 +197,6 @@ ul.updateHistory {
      display: flex;
      gap:5px;
 }
+ul .Trivia{
+    list-style-type: circle;
+}
