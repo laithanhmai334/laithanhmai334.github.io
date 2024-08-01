@@ -200,3 +200,6 @@ ul.updateHistory {
 ul .Trivia{
     list-style-type: circle;
 }
+ a{
+    color:red;
+}
