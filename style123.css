@@ -16,7 +16,10 @@ img {
     width:230px;
     height:280px;
 }
-
+.timeline{
+     inline-size: 420px;
+  overflow: hidden;
+}
 .box {
   inline-size: 500px;
   overflow: hidden;
@@ -74,7 +77,7 @@ button{
     border-radius:3px;
    background-color: rgb(0, 108, 176);
    border:none;
-   height: 18px;
+   height: 16px;
    padding:0px 2px 0px 3px;
    margin-top:100px;
 }
@@ -203,3 +206,38 @@ ul .Trivia{
  a{
     color:red;
 }
+.bioPara1{
+     inline-size: 835px;
+      overflow: hidden;
+}
+#biographyButton,#timelineButton{
+    color:#b2b5b7;
+    background-color: transparent;
+    height:30px;
+    transition-duration: 0.6s;
+    border-radius:0px;
+}
+#biographyButton:hover{
+    color:white;
+}
+#timelineButton:hover{
+    color:white;
+}
+ #biographyButton:not(.clicked) {
+            border-bottom: 3px solid transparent; /* No border initially */
+        }
+
+        /* Style for the button when clicked */
+ #biographyButton.clicked {
+            border-bottom: 3px solid #ff4b50; /* Red bottom border */
+            color: #ff4b50;
+        }
+#timelineButton:not(.clicked) {
+            border-bottom: 3px solid transparent; /* No border initially */
+        }
+
+        /* Style for the button when clicked */
+ #timelineButton.clicked {
+            border-bottom: 3px solid #ff4b50; /* Red bottom border */
+            color: #ff4b50;        
+        }
