@@ -286,6 +286,7 @@ VALORANT Lore Wiki: <a href="https://valorant-lore.fandom.com/wiki/Omen">Omen</a
         var contentDiv = document.getElementById("content");
         const button1= document.getElementById("biographyButton");
         const button2= document.getElementById("timelineButton");
+	     button1.classList.add("clicked");
         biographyButton.addEventListener("click", () => {
             contentDiv.innerHTML = biographyContent;
                 button1.classList.add("clicked");
