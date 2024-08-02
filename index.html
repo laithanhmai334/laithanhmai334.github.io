@@ -117,11 +117,12 @@ For more lore details and analysis related to Omen, be sure to also check out th
 VALORANT Lore Wiki: <a href="https://valorant-lore.fandom.com/wiki/Omen">Omen</a>
 </div>
 	</td>
-
-
 </tr>
 </table>
-<h3 style="margin-left:-3px">Biography</h3>
+<div style="display:flex;gap:20px">
+ <button id="biographyButton" style="margin-top: 10px;display:flex;font-size: 18px;margin-top: 30px;" ><strong>Biography</strong></button>
+    <button id="timelineButton" style="margin-top: 10px;display:flex;font-size: 18px;margin-top: 30px;"><strong>Timeline of events</strong></button>
+</div>
 </div>
 
 <div class="secondtable">
@@ -247,10 +248,16 @@ VALORANT Lore Wiki: <a href="https://valorant-lore.fandom.com/wiki/Omen">Omen</a
 </table>
 
 </div>
+
 </div>
+
 <div class="container2">
+  
+
 
 <div class="bioPara" style="margin-left:45px;margin-top:5px;line-height:27px;font-size: 18px;">
+<div id="content"  style="inline-size:850px;
+    overflow: hidden; margin-top: 40px;" >
 	For many years the phantom radiant Omen had no memory of his past and how he came to be in his current state. Firstly working alongside Dr. <a href="https://valorant.fandom.com/wiki/Sabine_Callas">Sabine Callas</a> (one of his only apparent links to who he used to be) at <a href="https://valorant.fandom.com/wiki/Kingdom_Corporation">Kingdom Corporation</a>, he would then go on join her in the founding of the <a href="https://valorant.fandom.com/wiki/VALORANT_Protocol">VALORANT Protocol</a>. During his time as a secret agent, Omen was driven by his search to discover who he previously was. Without answers he was unable to find peace, his predicament being only a nightmare for him to live in.
 	<br>
 	<br>
@@ -264,7 +271,34 @@ VALORANT Lore Wiki: <a href="https://valorant-lore.fandom.com/wiki/Omen">Omen</a
 	<br>
 	<br>
 	After the events in Jakarta, Omen now has the truth behind how he came to be, but it has only led to more questions and frustration, with Omen finding himself unfocused instead of at peace as he thought he would be once he got his answers. Now needing to find his own path in light of what he has uncovered, Omen has stepped away from the Protocol for now while he recovers. But no matter who he used to be, Omen has since made a new family in VALORANT, and he knows he will return to them in time.
+</div>
+<div class="container3" style="display:flex;gap:5px;justify-content:center">
+<div id="timeline" style="margin-left:45px;margin-top:5px;line-height:27px;font-size: 18px;inline-size:350px;overflow: hidden;display:none">
+	<p>uryhuiywuiryuiyiuiruuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu<br>uuuuuuuuuu<br>uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuudaaaaaaaaaaaaaaaaaaaaaaaaaaauuuu</p>
+</div>
+</div>
+ <script>
+        var biographyContent = document.getElementById("content").innerHTML;
+        const timelineContent = document.getElementById("timeline").innerHTML
 
+        const biographyButton = document.getElementById("biographyButton");
+        const timelineButton = document.getElementById("timelineButton");
+        var contentDiv = document.getElementById("content");
+        const button1= document.getElementById("biographyButton");
+        const button2= document.getElementById("timelineButton");
+        biographyButton.addEventListener("click", () => {
+            contentDiv.innerHTML = biographyContent;
+                button1.classList.add("clicked");
+             button2.classList.remove("clicked");
+        });
+
+        timelineButton.addEventListener("click", () => {
+            contentDiv.innerHTML = timelineContent;
+             button2.classList.add("clicked");
+             button1.classList.remove("clicked");
+
+        });
+    </script>
 	<h3>Personality</h3>
 	<table >
 		<tbody>
